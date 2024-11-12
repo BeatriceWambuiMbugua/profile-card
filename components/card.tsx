@@ -17,7 +17,7 @@ const ProfileCard = () => {
                 </div>
                 <div className="mt-10">
                     <div className="space-y-6">
-                        <button className="bg-indigo-700 w-full rounded-md text-base font-medium text-white px-4 py-[10px] shadow-lg">Contact Me</button>
+                        <button className="bg-indigo-700 w-full rounded-md text-base font-medium text-white px-4 py-[10px] shadow-lg">Contact mee</button>
 
                         <div className="flex items-center justify-center gap-6 my-6">
                             <div className="p-2">
