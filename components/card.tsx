@@ -19,11 +19,20 @@ const ProfileCard = () => {
                     <div className="space-y-6">
                         <button className="bg-indigo-700 w-full rounded-md text-base font-medium text-white px-4 py-[10px] shadow-lg">Contact Me</button>
 
-                        <div className="flex items-center justify-center gap-6">
-                            <IoLogoGithub className="text-indigo-700 text-xl" />
-                            <IoLogoLinkedin className="text-indigo-700 text-xl" />
-                            <AiFillInstagram className="text-indigo-700 text-xl" />
-                            <RiTwitterXFill className="text-indigo-700 text-xl" />
+                        <div className="flex items-center justify-center gap-6 my-6">
+                            <div className="p-2">
+                                <IoLogoGithub className="text-indigo-700 text-xl" />
+                            </div>
+                            <div className="p-2">
+                                <IoLogoLinkedin className="text-indigo-700 text-xl" />
+                            </div>
+
+                            <div className="p-2">
+                                <AiFillInstagram className="text-indigo-700 text-xl" />
+                            </div>
+                            <div className="p-2">
+                                <RiTwitterXFill className="text-indigo-700 text-xl" />
+                            </div>
                         </div>
                     </div>
 
