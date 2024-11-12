@@ -6,7 +6,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 const ProfileCard = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="bg-white max-w-[340px] mt-[200px] flex flex-col w-full shadow-lg rounded-lg px-4 py-6">
+            <div className="bg-white max-w-[340px] mt-[200px] flex flex-col w-full shadow-md rounded-lg px-4 py-6">
                 <div className="space-y-6 flex items-center justify-center flex-col">
                     <Image src={"/profile.png"} alt="profile-image" width={64} height={64} className="object-cover rounded-full" />
                     <div className="space-y-1 text-center">
